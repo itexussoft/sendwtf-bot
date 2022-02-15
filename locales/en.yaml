@@ -1,0 +1,199 @@
+greeting: Hi, this is the Send.WTF chatbot that helps you order and send food for TON
+balance: Yor balance is ${balance} rations
+accept: Accept
+back: Back
+menu: 
+  preferences: Preferences
+  myself: Order to myself
+  purchase: Purchace
+ask_preferences: 
+  text: For a relevant order, we need to know your preferences
+  base_pref: Basic preferences
+  categories: Preferences by category and brand
+  brands: Brand setup
+purchase:
+  refill: Replenish the balance of your diet
+basepref:
+  never: I do NOT eat ever(multivariant)
+  pork: Pork
+  beef: Beef
+  chicken: Chicken
+  fish: Fish
+  onion: Onion
+  fried: Fried food
+foodprefs:
+  character: In ordering food, you can characterize yourself as...
+  newest: I like to try new things in food (90% novelty)
+  ready: I'm willing to try new things if there's something familiar in the order(30% novelties and 70% classics)
+  classic: I'm a fan of classic dishes (90% familiar and understandable)
+  new: The classics are good, but I prefer something new (30% classics and 70% novelties).
+spicyprefs:
+  text: My attitude to spicy food is...
+  fan: I'm a fan, all the fun.
+  pleasure: Exactly, I'd love to eat.
+  betternot: I prefer not spicy food
+  no: Spicy food and me are incompatible
+drinkprefs:
+  text: In drinks I prefer(multivariate)
+  sweetwater: Sweet water (Coke, Fanta, Sprite)
+  compote: Homemade Compote
+  water: Water
+  fruitdrink: Fruitdrink
+  hotdrink: Hot drink
+sweetwaterprefs:
+  text: Sweet water, I prefer
+  coke: Coca-Cola / Pepsi
+  fanta: Fanta / Mirinda
+  sprite: SevenUp / Sprite
+  fusetea: Lipton / Fuse Tea
+juiceprefs:
+  text: Juice, I prefer
+  apple: Apple
+  cherry: Cherry
+  orange: Orange
+  tomato: Tomato
+  grape: Grape
+hotdrinksprefs:
+  text: Hot drink, I prefer
+  tea: Tea
+  punsh: Punch
+  americano: Americano
+  cappuchino: Cappuchino
+  latte: Latte
+basepref_thanks:
+  text: Thank you, now we know your basic preferences. This will help us send relevant products for you.
+  preferences: Change basic preferences
+  categories: Preferences by category and brand
+  brands: Brand customization
+brandpref:
+  text: What category shall we set up?
+  pizza: Pizza
+  burger: Burger
+  sushi: Sushi
+pizzaSizePref:
+  text: What size pizza do you prefer?
+  little: Pizza up to 25 cm
+  medium: Pizza up to 30 cm
+  large: Pizza up to 35 cm
+  any: Anything, as long as it tastes good.
+pizzaTypePref:
+  text: Of the pizzas, my favorite is.
+  meat: More meat
+  pepperoni: Pepperoni lover
+  cheese: Cheese one love
+  margarita: Margarita
+  vegetables: Vegetables and mushrooms
+  any: Any tasty
+pizzaIngredientNonPref:
+  text: I don't eat in pizza(multivariate)
+  porkbacon: Pork/Bacon
+  onion: Onion
+  olives: Olives
+  chicken: Chicken
+  fruites: Fruites
+  beef: Beef
+  sausage: Sausages
+pizzaSnackPref: 
+  text: Of the appetizers in pizzerias I prefer(multivariate)
+  chickenroll: Chicken roll
+  salad: Salad
+  potato: Potato
+  pasta: Pasta
+  dough: Dough snacks
+  nosnack: No snacks
+pizzaDessertPref:
+  text: Of the appetizers in the pizzerias I like(multivariate)
+  cheesecake: Cheesecake
+  sweetdough: Sweet doughs
+  choco: Chocolate fondues/cakes
+  pancheesecake: Cheesecakes
+  milk: Milkshakes
+  nodessert: No desserts
+burgerSizePref:
+  text: What size burger do you prefer?
+  s: Size S(cheeseburger or hamburger)
+  m: Size M(Royal Cheeseburger, Big Mac)
+  l: Size L(double cheeseburger, big tasty)
+  xl: Size XL(double big tasty, triple cheeseburger)
+  any: Any size
+burgerMeatPref:
+  text: What kind of meat in your burgers do you prefer?(multivariate)
+  beef: beef
+  pork: pork
+  chicken: chicken
+  mutton: mutton
+  fish: fish
+  shrimp: shrimp
+  any: Anything, I eat everything.
+burgerSnackPref:
+  text: What kind of appetizer do you prefer?
+  chips: French fries
+  potat: Rustic potatoes
+  onion: Onion rings
+  nuggets: Nuggets
+  shrimps: Shrimp in a deep fryer
+  strips: Stripes
+  wings: Wings
+  nosnack: I don't like snacks.
+saucePref:
+  text: Of the sauces I prefer (multivariate)
+  cheese: Cheese
+  sweetsour: Sweet-sour
+  hot: Hot 
+  teriyaki: Teriyaki
+  ketchup: Ketchup
+  barbeque: Barbeque
+  mustard: Mustard
+  nosauce: I don't like sauce.
+burgerDessert:
+  text: Pick your favorite desserts at the burger joint
+  ice: Ice Cream
+  pies: Pies
+  cake: Cakes
+  muffins: Cupcakes and muffins
+sushiPref:
+  text: What do you like from sushi restaurants?
+  sushi: Sushi
+  bakedsushi: Baked Sushi
+  rolls: rolls
+  bakedroll: Baked rolls
+  wok: Wok
+  sashimi: Sashimi
+  soup: Soups
+  hot: Hot
+  everything: Eat everything!
+seafoodPref:
+  text: I like the following seafood(multivariate)
+  salmon: salmon
+  tuna: tuna
+  scallop: scallop
+  mussels: mussels
+  crab: crab
+  acne: eel
+  crabsticks: crab sticks
+  everything: Eat everything!
+asianSoupPref:
+  text: Of the Asian soups I prefer(multivariate)
+  tomyam: tom-yam.
+  miso: miso
+  ramen: ramen
+  kimchi: kimchi
+  fobo: Fo-Bo
+  nothing: I don't like Asian soups
+wokBasePref:
+  text: Of woks in base I prefer(multivariate)
+  rice: Rice
+  udon: udon.
+  soba: soba.
+  funchosa: Funchosa
+  nowok: I don't like wok.
+  everything: Eat everything
+wokFillingPref: 
+  text: Of Wok stuffing I prefer(multivariate)
+  beef: beef
+  chicken: chicken
+  pork: pork
+  shrimp: shrimp
+  mushroom: Mushrooms
+  vegetables: vegetables
+  everything: Eat everything

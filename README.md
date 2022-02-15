@@ -1,0 +1,3 @@
+# Telegram bot
+
+Hello everyone, telegram bot "Send.WTF" is a logical development of the service of the same name. We started with delivering food to streamers in Russia, then focused on the influencers of the world, and now we see the future in giving food to each other in three clicks. That is why we are adapting our service to the modern payment tool TON and moving towards the food delivery service in Telegram. With our service, anyone can order food to the selected address, surprise a friend with a gift set of food in a telegram, pay attention to the interlocutor, and all this in a surprise delivery format according to the recipient's preferences.
